@@ -35,8 +35,8 @@ MainWindow::MainWindow(QWidget *parent)
          std::shared_ptr<QPushButton>(ui->pushButton_9)}
     };
 
-    table.resize(9, 0);
-    //resetGame();
+    table.resize(9);
+    std::fill(table.begin(), table.end(), 0);
 }
 
 MainWindow::~MainWindow()
