@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>images/cross_large.png</file>
+        <file>images/cross_small.png</file>
+        <file>images/title_ico.png</file>
+        <file>images/zero_large.png</file>
+        <file>images/zero_small.png</file>
+    </qresource>
+</RCC>
